@@ -1,0 +1,10 @@
+print(type("hello"))
+#str = string
+print(type(666))
+print(type(11.345))
+string_type = type("black")
+int_type = type(666)
+float_type = type(11.345)
+print(string_type)
+print(int_type)
+print(float_type)

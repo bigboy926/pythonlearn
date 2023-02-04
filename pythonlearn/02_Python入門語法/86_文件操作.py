@@ -1,0 +1,10 @@
+f = open("D:/測試0203.txt", "r", encoding="UTF-8")
+print(type(f))
+#print(f"讀取10個字節的結果: {f.read(10)}")
+#print(f"read讀取全部內容的結果: {f.read()}")
+print("-------------------")
+lines = f.readlines()
+print(f"lines對象的類型: {type(lines)}")
+print(f"lines對象的內容是:{lines}")
+print(len(lines))
+#\n enter換行
